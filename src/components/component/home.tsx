@@ -42,15 +42,10 @@ export function Homepage() {
             />
           </div>
           <div className="flex items-center gap-4">
+            
             <Link
               className="text-gray-900 dark:text-gray-50 hover:text-gray-700 dark:hover:text-gray-300"
-              href="#"
-            >
-              Sell
-            </Link>
-            <Link
-              className="text-gray-900 dark:text-gray-50 hover:text-gray-700 dark:hover:text-gray-300"
-              href="#"
+              href="/login"
             >
               Account
             </Link>
@@ -88,7 +83,7 @@ export function Homepage() {
                       className="text-gray-900 dark:text-gray-50 hover:text-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
-                      View Seller
+                      View Product
                     </Link>
                     <Button size="sm">Contact</Button>
                   </div>
@@ -118,7 +113,7 @@ export function Homepage() {
                       className="text-gray-900 dark:text-gray-50 hover:text-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
-                      View Seller
+                      View Product
                     </Link>
                     <Button size="sm">Contact</Button>
                   </div>
@@ -148,7 +143,7 @@ export function Homepage() {
                       className="text-gray-900 dark:text-gray-50 hover:text-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
-                      View Seller
+                      View Product
                     </Link>
                     <Button size="sm">Contact</Button>
                   </div>
@@ -178,7 +173,7 @@ export function Homepage() {
                       className="text-gray-900 dark:text-gray-50 hover:text-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
-                      View Seller
+                      View Product
                     </Link>
                     <Button size="sm">Contact</Button>
                   </div>
@@ -253,7 +248,7 @@ export function Homepage() {
         <section className="py-12 bg-gray-100 dark:bg-gray-800">
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-50">
-              Recent Listings
+              My Listings
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               <div className="bg-white dark:bg-gray-950 rounded-lg shadow overflow-hidden">
